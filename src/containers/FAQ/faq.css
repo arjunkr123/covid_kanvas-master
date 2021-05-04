@@ -1,0 +1,25 @@
+.question{
+    color: #000000;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 18px;
+}
+
+.answer{
+    color: rgb(29, 138, 29);
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.faq{
+    padding: 10px ;
+    background-color:#E0E5EC;
+    border-left: 2px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom-style: dotted;
+    margin: 20px  auto;
+    width: 70%;
+    text-align: center;
+}
+
+

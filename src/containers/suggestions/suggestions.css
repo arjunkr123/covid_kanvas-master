@@ -1,0 +1,71 @@
+
+.suggestionForm{
+    margin: 80px auto 30px;
+    width: 90%;   
+    border: 1px solid #000000;
+    padding: 10px;
+    box-sizing: border-box;
+    display:inline-block;
+    background-color:#E0E5EC;
+    /*box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);   */
+}
+.InputElement{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    border-radius: 20px;
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: #ccc;
+}
+.InputElement{
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px; 
+}
+p{
+    text-align: left;
+}
+.fail{
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+}
+.success{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(31, 172, 31);
+}
+.InputFields{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.suggestionForm h5 {
+    display: inline;
+    background-color: #22223b;
+    color: #e7a94d;
+    padding: 5px;
+}
+
+@media (min-width:600px){
+    .suggestionForm{
+        width: 600px;
+    }
+}
+.SubmitButton{
+    background-color:#E0E5EC;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+}

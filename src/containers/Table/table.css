@@ -1,0 +1,119 @@
+table{
+    width: 50%;
+    margin-left: 2% ;
+    margin-top: 40%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    /*box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);*/
+    border-radius:4px;
+    border: 1px solid rgb(187, 185, 185);
+}
+
+th{
+    padding: 10px;  
+}
+tbody{
+    border-top:1px solid black;
+}
+.headrow{
+    font-size: 18px;
+}
+
+
+td{
+
+padding: 10px;
+text-align: right;
+border-radius:4px;
+
+/* background-color:rgb(12, 13, 14); */
+
+
+}
+.new-confirmed {
+    background-color: white;
+}
+tr{
+    cursor: pointer;
+}
+tr:hover,
+tr:active,
+tr:visited {
+    background-color: #C0DDF5;
+}
+.Deaths{
+    color:#E12D48;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Recovered{
+    color:rgb(16, 165, 16);
+    font-size: 15px;
+    font-weight: bold;
+}
+.Active{
+    color: #175AF3;
+    font-size: 15px;
+    font-weight: bold;
+}
+.Confirmed{
+    font-size: 15px;
+    font-weight: bold;
+}
+.new-confirmed{
+    font-size: x-small;
+    color: red
+}
+.States{
+    font-weight: bold;
+    font-size: 15px;
+    width: 30%;
+    text-align: left;
+    
+}
+
+
+@media(max-width:1000px){
+    .table{
+        margin-left: 0px ;
+        margin-top: 20px;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        width:100%;
+    }
+    th{
+        padding: 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .Deaths{
+       
+        font-size: 15px;
+        
+    }
+    .Recovered{
+        
+        font-size: 15px;
+        
+    }
+    .Active{
+        
+        font-size: 15px;
+        
+    }
+    .Confirmed{
+        font-size: 15px;
+        
+    }
+    .States{
+        
+        font-size: 15px;
+       
+        
+    }
+
+}
+

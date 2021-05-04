@@ -1,0 +1,12 @@
+.TimeStamp {
+  padding: 4%;
+  font-family: "Lato", sans-serif;
+}
+
+/* margin-top: 140px; */
+
+@media (max-width: 700px) {
+  .TimeStamp {
+    margin-top: 140px;
+  }
+}

@@ -1,0 +1,15 @@
+.full-width-height {
+    height: auto;
+    width: 100%;
+  }
+.container {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px); 
+    /* padding: 16px; */
+  }
+
+.container span {
+  color: white;
+  background-color: transparent;
+}
+

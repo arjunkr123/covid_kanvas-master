@@ -1,0 +1,63 @@
+.footerBar{
+    background-color: #1D1C1C;  
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+.icon, .fa-copyright, .fa-facebook-square{
+    font-size: 20px;
+    color: white;
+}
+
+.fa-copyright {
+    padding-right: 2px;
+}
+
+.icon, .fa-facebook-square {
+    padding-left: 20px;
+}
+
+a:nth-child(1){
+    margin-right: 100px;
+}
+
+.username {
+    color: white;
+}
+
+.icon:hover, .fa-facebook-square:hover {
+    color: #e7a94d;
+}
+/*.username{
+    color:white;
+    font-size:15px;
+    padding:10px;
+    
+}*/
+
+@media(max-width:500px){
+    .icon, .fa-copyright, .fa-facebook-square{
+       color: white;
+       font-size: 18px;
+    }
+    .fa-copyright {
+        padding-right: 0;
+    }
+    .username{
+        font-size: 15px;
+    }
+    .footerBar{
+        display: grid; 
+        text-align: left;
+    }
+    .username{
+        padding: 2%;
+    }
+    a{
+        padding: 1%;
+    }
+}

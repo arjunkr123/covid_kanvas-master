@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0E5EC;
+  }
+  .heading{
+    text-align: left;
+    padding-left: 5%;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    color: #22223b;
+  }
+  .App {
+    text-align: center;
+  }
+  .map{
+    width: 100%;
+    height: auto;
+  }
+
+  .Content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Total{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: #E12D48;
+    
+  }
+  .Posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  @media(max-width: 700px) {
+    .map {
+      height: 65vh;
+    }
+  }
+  
+  @media(max-width:1000px){
+    .Content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .headerdiv{
+      padding-top: 20%;
+      
+    }
+    .Posts {
+      display: flex;
+      flex-direction: column;
+      /* flex-flow: row wrap; */
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+    }
+    .heading{
+      padding-top:5px ;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  

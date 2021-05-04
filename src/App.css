@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+  margin-bottom: 0px;
+  overflow: scroll;
+}
+.App {
+  text-align: center;
+}
+.Content{
+  display:flex;
+}
+.Total{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #E12D48;
+  
+}
+.footBanner {
+  font-family: 'Lato', sans-serif;
+  color: #22223b;
+}
+
+@media(max-width:500px){
+  .Content{
+    display: block;
+    box-sizing: border-box;
+  }
+  body{
+    overflow-x: none;
+    padding:    0px;
+  }
+
+  .footBanner{
+    font-size: 22px;
+  }
+}
